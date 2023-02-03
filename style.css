@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    position: relative;
+}
+
+:root {
+    --primary-color: #3f3d56;
+    --secondary-color: #ee24ff;
+    --tertiary-color: #828282;
+    --quaternary-color: #eceff2;
+}
+
+main {
+    width: 626px;
+    margin: auto;
+}
+
+h1, .item-footer p, strong{
+    color: var(--primary-color);
+}
+span {
+    color: var(--secondary-color);
+}
+p {
+    color: var(--tertiary-color);
+}
+h1 {
+    font-family: 'Dosis', sans-serif;
+}
+.text p, .item-footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------------------- acima tem a parte de cores e fonte -------------------------------*/
+
+image {
+    margin-bottom: 32px;
+}
+.item-footer p {
+    display: inline;
+    margin: 21px;
+}
+.item-footer {
+    margin-top: 42px;
+}
+h1 {
+    margin-bottom: 16px;
+}
+#cta {
+    margin-top: 32px;
+}
+.alling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    border: 1px solid #ECEFF2;
+    position: absolute;
+    width: 391px;
+   
+    
+    
+}
+#img-footer{
+    margin-top: 40.83px;
+    width: 100vw;
+}
